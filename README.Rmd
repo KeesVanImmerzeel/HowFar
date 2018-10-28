@@ -1,0 +1,16 @@
+---
+title: "HowFar"
+author: "C.H. van Immerzeel"
+date: "28 oktober 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# HowFar
+
+1. Specify your home city
+2. Specify another city.
+3. View the distance to yourhome city.
