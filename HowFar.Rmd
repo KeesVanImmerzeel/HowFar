@@ -1,0 +1,28 @@
+---
+title: "HowFar"
+author: "C.H. van Immerzeel"
+date: "28 oktober 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## HowFar functionality
+
+Do you ever wonder what the (shortest) distance is between two cities? 
+
+Wonder no more and visit: 
+
+<https://ido-doesburg.shinyapps.io/HowFar/>.
+
+Simply type the city you live in and push the button "Make this my home location".
+
+Then type the name of another city and the distance in kilometers is shown.
+
+
+## Limitations
+
+- Not all cities are recognized; only cities in the R dataset "world.cities".
+- Some cities in the world have the same name. This results in an error in the calculated distance field. I should resolve this some time...
